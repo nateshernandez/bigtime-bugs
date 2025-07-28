@@ -33,12 +33,16 @@ The endpoint returns streaming NDJSON responses with assistant messages.
 
 ## Environment Configuration
 
-Create a `.env` file in the root directory with your ADO credentials:
+Create a `.env` file in the root directory with your credentials:
 
 ```env
 # Azure DevOps Git Credentials
 # Generate these from your ADO profile settings
 GIT_USERNAME=your-ado-username
 GIT_PASSWORD=your-ado-personal-access-token
+
+# Claude API Key
+# Get your API key from https://console.anthropic.com/
+ANTHROPIC_API_KEY=your-anthropic-api-key
 ```
 
